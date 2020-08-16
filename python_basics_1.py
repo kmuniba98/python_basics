@@ -9,11 +9,10 @@ print('\nthis is a print statement:\tit shows up in the console\n')
 # it will automatically detect it on its own
 name = 'Kevin' # strings are in single or double quotes
 is_awesome = False # boolean is True or False
-bad_at_sex = True
 age = 22
 
 # if/else using boolean
-if(is_awesome and not bad_at_sex):
+if(is_awesome):
     print('u r awesome sauce')
 else:
     print('u r a loser')
@@ -45,4 +44,4 @@ print('\n')
 
 # or you can use 'range' to specify how many times you want to loop
 for i in range(10):
-    print(friend)
+    print(i)
